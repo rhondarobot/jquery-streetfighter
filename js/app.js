@@ -1,9 +1,11 @@
-$("document").ready(function() {
-	$(".ryu-ready").click(function() {
-		$(this).hide();
-	$(".ryu-throwing").click(function() {
-		$(this).show();
-	})	
-	});
-})
+$(document).ready(function() {
+  $('.ryu').mouseenter(function() {
+    $('.ryu-still').hide();
+    $('.ryu-ready').show();
+  })
+  .mouseleave(function(){
+  	$('.ryu-ready').hide();
+  	$('.ryu-still').show();
+  });	
+});
  

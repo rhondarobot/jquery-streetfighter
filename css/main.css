@@ -12,6 +12,16 @@ body {
 	z-index: 1;
 }
 
+.text-content p {
+	display: block;
+    color: blue;
+    font-size: 24px; 
+    width: 50%;
+    font-family: Nothing You Could Do;
+    line-height: 45px;
+    margin: 0;
+}
+
 .ryu {
 	width: 659px;
 	height: 494px;

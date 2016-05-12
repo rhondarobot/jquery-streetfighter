@@ -12,7 +12,7 @@ body {
 	z-index: 1;
 }
 
-.text-content p {
+p {
 	display: block;
     color: blue;
     font-size: 24px; 

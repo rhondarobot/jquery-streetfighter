@@ -16,7 +16,6 @@ body {
 .ryu {
 	width: 659px;
 	height: 494px;
-    display: inline-block;
     float: left;
 }
 
@@ -27,9 +26,8 @@ body {
     /*firefox, ie, etc*/
     width: 659px;
 	height: 494px;
-    display: inline-block;
-    float: right;
     margin: auto;
+    margin-right: 95px;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .hulk-ryu-ready, .hulk-ryu-still, .hulk-ryu-throwing, .hulk-ryu-cool {

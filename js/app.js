@@ -33,7 +33,7 @@ $(document).ready(function() {
     playHadouken();
     $('.hulk-ryu-ready').hide();
     $('.hulk-ryu-throwing').show();
-    $('.hadouken').finish().show().animate(
+    $('.hulk-hadouken').finish().show().animate(
       {'right':'1020px'},
       500,
       function() {

@@ -43,6 +43,9 @@ body {
 
 .hulk-ryu {
     filter: -webkit-hue-rotate(90deg);
+    /*chrome, safari, opera*/
+    filter: hue-rotate(90deg);
+    /*firefox, ie, etc*/
     width: 659px;
 	height: 494px;
     display: inline-block;

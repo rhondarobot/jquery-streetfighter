@@ -10,21 +10,33 @@ body {
 	height: 500px;
 	position: relative;
 	z-index: 1;
+	display: inline-block;
 }
 
-p {
-	display: block;
+#one {
+	display: inline-block;
     color: blue;
     font-size: 24px; 
-    width: 50%;
+    width: 24%;
     font-family: Nothing You Could Do;
-    line-height: 45px;
-    margin: 0;
+    margin: auto;
+    float: right;
+}
+
+#two {
+	display: inline-block;
+    color: blue;
+    font-size: 24px; 
+    width: 24%;
+    font-family: Nothing You Could Do;
+    margin: auto;
 }
 
 .ryu {
 	width: 659px;
 	height: 494px;
+    display: inline-block;
+    float: left;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {

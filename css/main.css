@@ -14,22 +14,24 @@ body {
 }
 
 #one {
-	display: inline-block;
-    color: blue;
-    font-size: 24px; 
+    font-size: 40px; 
     width: 24%;
-    font-family: Nothing You Could Do;
+    font-family: Akronim;
     margin: auto;
-    float: right;
+    margin-right: 176px;
+    margin-top: 10%
 }
 
 #two {
 	display: inline-block;
-    color: blue;
-    font-size: 24px; 
+    font-size: 40px; 
+    color: red;
     width: 24%;
-    font-family: Nothing You Could Do;
+    font-family: Akronim;
     margin: auto;
+    margin-top: 124px;
+    float: right;
+    margin-right: 253px;
 }
 
 .ryu {

@@ -57,10 +57,27 @@ $(document).ready(function() {
          $('.ryu-cool').show();
        }
   })
- $('.hulk-ryu').mouseenter(function() {
-    $('.hulk-ryu-still').hide();
-    $('.hulk-ryu-ready').show();
+   $("body").keydown(function(h) {
+       if(h.keyCode==72){
+         $('.hulk-ryu-still').hide();
+         $('.hulk-ryu-ready').hide();
+         $('.hulk-ryu-cool').show();
+       }
   })
+   $("body").keyup(function(x) {
+       if(x.keyCode==88){
+        $('.ryu-still').show();
+        $('.ryu-ready').hide();
+        $('.ryu-cool').hide();
+       }
+   })
+   $("body").keyup(function(h) {
+       if(h.keyCode==72){
+        $('.hulk-ryu-still').show();
+        $('.hulk-ryu-ready').hide();
+        $('.hulk-ryu-cool').hide();
+       }
+   })
 });
 
 function playHadouken () {

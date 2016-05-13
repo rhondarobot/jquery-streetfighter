@@ -10,6 +10,21 @@ h1 {
 	margin-top: 19px;
 	margin-bottom: -89px;
 }
+#one, #two, #three {
+	font-family: Orbitron;
+	width: 87px;
+	display: inline;
+	margin-bottom: 20px;
+}
+#one {
+	color: green;
+}
+#two {
+	color: black;
+}
+#three {
+	color: red;
+}
 
 .main {
 	background-color: white;
